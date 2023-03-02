@@ -1,0 +1,162 @@
+body{
+    background-color: rgba(1, 39, 255, 0.535) ;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+
+a{
+    color: black;
+}
+
+header{
+    margin:0;
+    padding: 1px;
+    text-align: center;
+    background:  linear-gradient(180deg, #3fd6ff, #9d9d9d);
+}
+
+.Nombre{
+    font-size: 20px;
+}
+
+.datos{
+    display: flex;
+    margin: 0;
+    
+}
+
+.foto{
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    margin: 10px;
+}
+
+div{
+    margin: 5px;
+    margin-left: 10px;
+}
+.lateral{
+    background:  linear-gradient(180deg, #3fd6ff, #9d9d9d);
+    width: 400px;
+    text-align: center;
+    display: block;
+}
+
+.INFO{
+    text-align: left;
+}
+
+b u{
+    
+    font-size: 20px;
+}    
+
+.personal{
+    display: flex;
+}
+
+h4{
+    margin: 0;
+}
+
+.imgemail{
+    width: 40px;
+    height: 40px;
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 2px;
+    
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 0;
+}
+
+.idioma{
+    margin: 3px;
+    margin-left: 5px;
+}
+
+.facebook{
+    margin: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.instagram{
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.tiktok{
+    margin: 5px;
+    height:35px;
+    width: 35px;   
+}
+
+.whatsapp{
+    margin: 5px;
+    height:35px;
+    width: 35px;
+}
+
+.telegram{
+    margin-top: 10px;
+    margin-left: 0;
+    height:35px;
+    width:50px;
+}
+
+
+
+.SOBREMI{
+    width: 1000px;
+    background:  linear-gradient(180deg, #3fd6ff, #9d9d9d);
+
+}
+
+.habilidades{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+@media(max-width:600px){
+    header{
+        width: 510px;
+        font-size: 15px;
+    }
+
+    .foto{
+        width: 100px;
+        height: 100px;
+    }
+    .Nombre{
+        font-size: 20px;
+    }
+
+    .datos{
+        flex-direction: column;
+    }
+    .lateral{
+        width: 500px;
+    }
+
+    .SOBREMI{
+        width: 500px;
+
+    }
+}
