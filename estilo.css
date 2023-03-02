@@ -131,7 +131,6 @@ p{
 
 .habilidades{
     display: flexbox;
-    border: 1px solid black;
     width: 100%;
     
 }
@@ -152,10 +151,17 @@ p{
     font-size: 30px;
 }
 
-@media(max-width:600px){
+@media(min-width:600px){
+    body{
+        width: 400px;
+    }
     header{
         width: 100%;
         font-size: 15px;
+    }
+
+    .INFO{
+        width: 95%;
     }
 
     .foto{
@@ -170,11 +176,15 @@ p{
         flex-direction: column;
     }
     .lateral{
-        width: 500px;
+        width: 95%;
     }
 
     .SOBREMI{
-        width: 500px;
+        width: 95%;
 
+    }
+    
+    .habilidades{
+        display: flexbox;
     }
 }
