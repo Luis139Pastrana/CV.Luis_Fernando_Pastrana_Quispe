@@ -151,6 +151,10 @@ p{
     font-size: 30px;
 }
 
+.certificados a{
+    margin: 20px;
+}
+
 @media(max-width:600px){
 
     header{
