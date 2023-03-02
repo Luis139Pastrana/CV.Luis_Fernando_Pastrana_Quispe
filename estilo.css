@@ -146,13 +146,19 @@ p{
 }
 
 .certificados{
-    margin: 20px;
     text-align: center;
+    margin: 0;
+    padding: 5px;
     font-size: 30px;
 }
 
 .certificados a{
-    margin: 20px;
+    background: linear-gradient(180deg, #6cefe2, #2e1fff);
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 @media(max-width:600px){
@@ -188,5 +194,17 @@ p{
     
     .habilidades{
         display: flexbox;
+    }
+
+    .certificados {
+        width: 100%;
+    }
+
+    .certificados a{
+        text-align: center;
+        margin-block: 10px;
+        font-size: 11pt;
+        background: linear-gradient(180deg, #6cefe2, #2e1fff);
+        border-radius: 10px;
     }
 }
