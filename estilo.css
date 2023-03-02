@@ -12,7 +12,7 @@ header{
     margin:0;
     padding: 1px;
     text-align: center;
-    background:  linear-gradient(180deg, #3fd6ff, #9d9d9d);
+    background:  linear-gradient(180deg, #140cff, #9d9d9d);
 }
 
 .Nombre{
@@ -37,7 +37,7 @@ div{
     margin-left: 10px;
 }
 .lateral{
-    background:  linear-gradient(180deg, #3fd6ff, #9d9d9d);
+    background:  linear-gradient(180deg, #140cff, #9d9d9d);
     width: 400px;
     text-align: center;
     display: block;
@@ -45,6 +45,7 @@ div{
 
 .INFO{
     text-align: left;
+    width: 100%;
 }
 
 b u{
@@ -123,20 +124,37 @@ p{
 
 
 .SOBREMI{
-    width: 1000px;
-    background:  linear-gradient(180deg, #3fd6ff, #9d9d9d);
+    width: 100%;
+    background:  linear-gradient(180deg, #140cff, #9d9d9d);
 
 }
 
 .habilidades{
-    display: flex;
-    width: 40px;
-    height: 40px;
+    display: flexbox;
+    border: 1px solid black;
+    width: 100%;
+    
+}
+
+.habilidades img{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.list{
+    margin-left: 15px;
+}
+
+.certificados{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
 }
 
 @media(max-width:600px){
     header{
-        width: 510px;
+        width: 100%;
         font-size: 15px;
     }
 
